@@ -57,21 +57,13 @@ print(my_var_a == my_var_d) # There are one type of verables
 
 # Bitwise_Operator_exercise 
 
-convert_number: int = 4999
-print(bin(convert_number))
+a = 4999
+b = 2111
+print(bin(a))
+print(bin(b))
+print(bin(a & b))
 
-convert_number: int = 2111
-print(bin(convert_number))
+print(bin(a | b))
+print(int("0b111", base = 2))
+print(int("0b1101110111111", base = 2))
 
-convert_number: int = 4999
-convert_number_bin: str = bin(convert_number)
-print(int(convert_number_bin, base = 2))
-
-convert_number: int = 2111
-convert_number_bin: str = bin(convert_number)
-print(int(convert_number_bin, base = 2))
-
-print(4999 & 2111)
-print(4999 | 2111)
-
-# it my task
