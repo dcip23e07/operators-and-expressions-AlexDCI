@@ -59,6 +59,8 @@ print(my_var_a == my_var_d) # There are one type of verables
 
 a = 4999
 b = 2111
+c = 5999
+d = 3111
 print(bin(a))
 print(bin(b))
 print(bin(a & b))
@@ -66,4 +68,5 @@ print(bin(a & b))
 print(bin(a | b))
 print(int("0b111", base = 2))
 print(int("0b1101110111111", base = 2))
+
 
